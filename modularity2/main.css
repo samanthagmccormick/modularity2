@@ -1,0 +1,169 @@
+/* ADD YOUR STYLES HERE */
+
+/*.equalspacing {
+	padding: 0px 50px 0px 50px;
+	float: left;
+}
+
+.equalspacing img {
+	display: inline-block;
+	margin: 20px;
+	float: right;
+}
+
+.equalspacing p {
+	margin: 20px;
+	text-align: left;
+}
+
+.equalspacing ol {
+	margin: 20px;
+	text-align: left;
+}*/
+
+/* Flexbox basics - Horizontal spacing*/
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.flexbox img, ol, p {
+	margin: 10px;
+}
+
+/* Vertical spacing of horizontal elements */
+
+.flexbox-vertical {
+	display: flex;
+	align-items: center;
+	height: 200px;
+}
+
+.flexbox-vertical img {
+	margin: 5px;
+}
+
+/* Horizontal list */
+
+.flexbox-list {
+	display: flex;
+	flex-flow: nowrap;
+}
+
+.flexbox-list ol, ul {
+	display: inline;
+	list-style-type: none;
+	padding-left: 0px
+}
+
+/* Buttons */
+
+a.bigbutton {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.medbutton {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+a.smbutton {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 50%;
+}
+
+input.medbutton {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+.bigbutton {
+	background: #FF00FF;
+	display: inline-block;
+	padding: 20px 40px;
+	border: 1px solid #ff00ff;
+	border-radius: 10px;
+}
+
+.medbutton {
+	background: #FF00FF;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #ff00ff;
+	border-radius: 10px;
+}
+
+.smbutton {
+	background: #FF00FF;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #ff00ff;
+	border-radius: 10px;
+}
+
+/* Navigation menu */
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	border: 1px solid #FF00FF;
+	border-radius: 10px;
+	background: #FF00FF;
+}
+
+.menu ol, ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.menu a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+/* Pagination */
+
+.paginate {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+.paginate ol, ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.paginate li {
+	display: inline-block;
+	padding: 10px 10px;
+	border-bottom: solid 3px #FF00FF;
+	margin-left: 10px;
+}
+
+.paginate a {
+	color: #FF00FF;
+	text-decoration: none;
+	font-size: 90%;
+}
+
