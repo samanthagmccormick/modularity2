@@ -190,28 +190,45 @@ input.medbutton {
 
 /* Tabs */
 
-.tabs ol, ul {
-	display: inline-block;
-	list-style-type: none;
+
+.tabs {
+ 	list-style: none;
+ 	padding-left: 10px;
 }
 
 .tabs li {
 	display: inline-block;
-	padding: 10px 20px;
-	border-top: 1px solid #000000;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
-	margin: 0px 10px 0px 0px;
 }
 
 .tabs a {
-	color: #000000;
+	font-size: 70%;
 	text-decoration: none;
-	font-size: 80%;
 }
 
-.tabtext {
-	margin: -5px 0px 0px 0px;
+.tab {
+	display: inline-block;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	margin: 5px 10px 0px 0px;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.tab-active {
+	display: inline-block;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 2px solid #ffffff;
+	margin: 5px 10px 0px 0px;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.tabcontent {
 	padding: 20px;
 	border-right: 1px solid #000000;
 	border-bottom: 1px solid #000000;
@@ -219,10 +236,6 @@ input.medbutton {
 	border-top: #000000 solid 1px;
 	background-color: #ffffff;
 	overflow: hidden;
-
-}
-
-.current li {
-
+	margin-top:-3px;
 
 }
