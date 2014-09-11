@@ -161,10 +161,18 @@ input.medbutton {
 	margin-left: 10px;
 }
 
-.paginate  span li {
+.paginate li:first-child {
+	border-bottom: 0px;
+}
+
+.paginate li:last-child {
+	border-bottom: 0px;
+}
+
+.paginate  span {
 	color: #C0C0C0;
 	border-bottom: solid 3px #C0C0C0;
-
+	margin-left: 10px;
 }
 
 .paginate a {
@@ -207,35 +215,22 @@ input.medbutton {
 
 .tab {
 	display: inline-block;
-	border-top: 1px solid #000000;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
+	border: 1px solid #000000;
 	margin: 5px 10px 0px 0px;
 	padding: 10px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	position: relative;
 }
 
 .tab-active {
-	display: inline-block;
-	border-top: 1px solid #000000;
-	border-right: 1px solid #000000;
-	border-left: 1px solid #000000;
-	border-bottom: 2px solid #ffffff;
-	margin: 5px 10px 0px 0px;
-	padding: 10px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-bottom: 1px solid #ffffff;
 }
 
 .tabcontent {
 	padding: 20px;
-	border-right: 1px solid #000000;
-	border-bottom: 1px solid #000000;
-	border-left: 1px solid #000000;
-	border-top: #000000 solid 1px;
+	border: 1px solid #000000;
 	background-color: #ffffff;
-	overflow: hidden;
-	margin-top:-3px;
+	margin-top:-1px;
 
 }
